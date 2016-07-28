@@ -34,10 +34,10 @@ Finally you need to configure the ConnectionString in your web.config
 
 
 Next Update will contains:
-1. Ability to configure new Fields in user Table.
-2. Ability to signIn using Google, Microsoft, Twitter, Facebook.
-3. Get User Roles.
-4. Change user roles.
-5. Delete User.
+* Ability to configure new Fields in user Table.
+* Ability to signIn using Google, Microsoft, Twitter, Facebook.
+* Get User Roles.
+* Change user roles.
+* Delete User.
 
 Credit: [Waleed Chayeb](https://www.wchayeb.com/)
