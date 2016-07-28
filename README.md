@@ -10,7 +10,6 @@ To install AuthPackage, run the following command in the Package Manager Console
 Install-Package AuthPackage
 ```
 
-or visit package page on Nuget:
- [example link](https://www.nuget.org/packages/AuthPackage/)
+or visit package page on [Nuget](https://www.nuget.org/packages/AuthPackage/)
 
 # How to use:
