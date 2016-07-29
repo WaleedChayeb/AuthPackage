@@ -20,10 +20,9 @@ AuthUser(HttpContext)
 
 Second you can use one of the features
 ```
-SignIn(string email, string password)
-GetRoles(string email)
+SignIn(string email, string password) 
 SignOut()
-Registration(string email, string username, string password)
+Register(string email, string username, string password)
 ```
 
 Finally you need to configure the ConnectionString in your web.config
