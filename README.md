@@ -31,6 +31,19 @@ Finally you need to configure the ConnectionString in your web.config
  <add key="connectionString" value="connectionStringHere" />
 ```
 
+#Example:
+```
+ public async Task<ActionResult> SignIn()
+        {
+            var context = System.Web.HttpContext.Current;
+            AuthUser authUser = new AuthUser(context);
+            ViewBag.isDone = false;
+            await authUser.SignIn("waleed@hotmail.com", "123456");
+            return RedirectToAction("Index", "Home");
+        }
+
+```
+
 #Next Update:
 
 * Ability to configure new Fields in user Table.
