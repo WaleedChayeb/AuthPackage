@@ -31,8 +31,8 @@ Finally you need to configure the ConnectionString in your web.config
  <add key="connectionString" value="connectionStringHere" />
 ```
 
+#Next Update:
 
-Next Update will contains:
 * Ability to configure new Fields in user Table.
 * Ability to signIn using Google, Microsoft, Twitter, Facebook.
 * Get User Roles.
