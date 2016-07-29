@@ -4,7 +4,7 @@ based on Asp.net Identity, Owin, Entity Framework.
 
 Every time you want to setup Asp.net Identity on your project you'll need to add several packages, create new classes and get alot of error, AuthPackage is pre-configured library that enables you to use Asp.net Identity Features in easy way.
 
-# Install
+## Install
 To install AuthPackage, run the following command in the Package Manager Console
 ```
 Install-Package AuthPackage
@@ -12,7 +12,7 @@ Install-Package AuthPackage
 
 or visit package page on [Nuget](https://www.nuget.org/packages/AuthPackage/)
 
-# How to use:
+## How to use:
 First of all you need to create instance of 
 ```
 AuthUser(HttpContext)
@@ -31,7 +31,7 @@ Finally you need to configure the ConnectionString in your web.config
  <add key="connectionString" value="connectionStringHere" />
 ```
 
-#Example:
+##Example:
 ```
  public async Task<ActionResult> SignIn()
         {
@@ -43,7 +43,7 @@ Finally you need to configure the ConnectionString in your web.config
 
 ```
 
-#Next Update:
+##Next Update:
 
 * Ability to configure new Fields in user Table.
 * Ability to signIn using Google, Microsoft, Twitter, Facebook.
