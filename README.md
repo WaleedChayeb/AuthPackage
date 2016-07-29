@@ -37,8 +37,7 @@ Finally you need to configure the ConnectionString in your web.config
         {
             var context = System.Web.HttpContext.Current;
             AuthUser authUser = new AuthUser(context);
-            ViewBag.isDone = false;
-            await authUser.SignIn("waleed@hotmail.com", "123456");
+            await authUser.SignIn("waleedchayeb2@gmail.com", "123456");
             return RedirectToAction("Index", "Home");
         }
 
